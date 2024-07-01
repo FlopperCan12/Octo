@@ -1,0 +1,177 @@
+<!DOCTYPE html><html><head><meta name="viewport" content="width=device-width"><script type="text/javascript" src="https://www.authpro.com/auth/Octoai/?action=pp"></script><meta charset="UTF-8"><title>Hycron-4</title><style>@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');.sidebar.collapsed { width: 0; padding-top: 0; overflow: hidden; background-color: transparent; } .sidebar.collapsed .theme-picker { display: none; } body { font-family: "Comfortaa", sans-serif; background-color: #5b5b5b; } .chat-container { max-width: 400px; margin: 0 auto; border: 1px solid #ccc; padding: 20px; border-radius: 15px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); overflow-y: auto; max-height: 300px; background-color: #2A363B; border: none; } .chat-message { background-color: #1ca1f1; padding: 10px; margin-bottom: 10px; border-bottom-left-radius: 5px; border-bottom-right-radius: 15px; border-top-right-radius: 15px; border-top-left-radius: 15px; text-align: left; color: white; word-wrap: break-word; overflow-wrap: break-word; } .user-message { background-color: #f1f1f1; padding: 10px; margin-bottom: 10px; border-bottom-left-radius: 15px; border-bottom-right-radius: 5px; border-top-right-radius: 15px; border-top-left-radius: 15px; text-align: right; color: #333; word-wrap: break-word; overflow-wrap: break-word; align-self: flex-end; margin-left: 100px; font-weight: bold; } #user-input { width: 600px; padding: 10px; border: 2px solid lightgray; border-radius: 5px; margin-top: 10px; } #user-input-button { width: 30%; padding: 10px; background-color: #2279ff; color: white; border: none; border-radius: 5px; margin-top: 10px; transition: .3s; } #user-input:focus { border-color: #3BC2FF; color: #ffffff; transition: .6s; box-shadow: 0px 0px 5px 5px #0ff; transition-timing-function: ease-in-out; } #user-input { outline: none; } #user-input { width: 100%; padding: 10px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); font-size: 16px; transition: border-color 0.2s ease-in-out; } .title { color:white; } #user-input::placeholder { color: #ffffff; } #user-input { background-color: #1E1E1E; border-radius: 1rem; color: black } #user-input-button { background-color: #2279ff; color: white; border: none; padding: 10px 20px; cursor: pointer; border-radius: 5px; align-self: center; display: flex; justify-content: center; align-items: center; margin-left: 50% transition: background-color 0.2s ease-in-out; } #user-input-button:hover { background-color: #5a9bff; } .title { font-weight: bolder; color: #9d9d9d; } header { display: flex; align-items: center; justify-content: center; } .logo { border-radius: 50% } .theme-picker { font-family: "Comfortaa", sans-serif; margin-bottom: 20px; border: none; transition: background-color 0.3s, transform 0.3s; transform: scale(1); } .theme-picker:hover { transform: scale(1.1); } .theme-picker label { font-size: 16px; font-weight: bold; color: #333; font-family: "Comfortaa", sans-serif; } .theme-picker select { width: 200px; padding: 10px; font-size: 14px; border: none; border-radius: 5px; background-color: #fff; color: #333; cursor: pointer; transition: border-color 0.3s ease; font-family: "Comfortaa", sans-serif; } .theme-picker select option { background-color: #fff; color: #333; } .theme-picker select:hover { border: none; } .theme-picker select:focus { outline: none; border-color: #007bff; box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); } .theme-picker { font-family: Comfortaa, sans-serif; margin-bottom: 20px; border: none; } .theme-picker label { font-size: 16px; font-weight: bold; color: #9a9a9a; } .theme-picker select { width: 200px; padding: 10px; font-size: 14px; border:none; border-radius: 5px; background-color: #fff; color: #333; cursor: pointer; transition: border-color 0.3s ease; } .theme-picker select option { background-color: #fff; color: #333; } .theme-picker select:hover { border: none; } .theme-picker select:focus { outline: none; border: none; box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); } .theme-picker select::-ms-expand { display: none; } .theme-picker select:after { content: '\25BC'; position: absolute; top: 50%; right: 10px; transform: translateY(-50%); pointer-events: none; color: #333; } .theme-picker select:active, .theme-picker select:focus, .theme-picker select:checked { border: none; } .theme-picker select option:checked { background-color: #007bff; color: #fff; } .theme-picker select:disabled { background-color: #f0f0f0; color: #999; cursor: not-allowed; } .theme-picker select:disabled:hover { border: none; } .theme-picker { margin-bottom: 20px; } .theme-picker label { font-weight: bold; } .theme-picker select { width: 200px; padding: 10px; font-size: 14px; border-radius: 5px; transition: border-color 0.3s ease; } .theme-picker select option { background-color: #fff; color: #333; } .theme-picker select:hover { border-color: #555; } .theme-picker select:focus { outline: none; border-color: #007bff; box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); } .theme-picker select:after { content: '\25BC'; position: absolute; top: 50%; right: 10px; transform: translateY(-50%); pointer-events: none; color: #333; } .theme-picker select option:checked { background-color: #007bff; color: #fff; } .theme-picker select:disabled { background-color: #f0f0f0; color: #999; cursor: not-allowed; } .theme-picker select:disabled:hover { border-color: #ccc; } .theme-picker { text-align: center; } .theme-picker select { margin-top: 10px; } .theme-picker label { display: block; margin-bottom: 5px; font-size: 16px; } .theme-picker select:hover { border-color: #555; } .theme-picker select:focus { outline: none; border-color: #007bff; box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); } .theme-picker select:after { content: '\25BC'; position: absolute; top: 50%; right: 10px; transform: translateY(-50%); pointer-events: none; color: #555; font-size: 12px; } .theme-picker select option:checked { background-color: #007bff; color: #fff; } .theme-picker { text-align: center; margin-bottom: 20px; } .theme-picker label { font-weight: bold; font-size: 16px; } .theme-picker select { width: 200px; padding: 10px; font-size: 14px; border-radius: 5px; background-color: #fff; color: #333; cursor: pointer; transition: border-color 0.3s ease; } .theme-picker select option { background-color: #fff; color: #333; } .theme-picker select:hover { border-color: #555; } .theme-picker select:focus { outline: none; border: none; box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); } .theme-picker select::after { content: '\25BC'; position: absolute; top: 50%; right: 10px; transform: translateY(-50%); pointer-events: none; color: #333; } .theme-picker select:checked { background-color: #ffff00; color: #fff; } .theme-picker select:disabled { background-color: #ff0000; color: #999; cursor: not-allowed; } .theme-picker select:disabled:hover { border: none; } .sidebar { width: 250px; height: 100%; background-color: #333; position: fixed; top: 0; left: 0; z-index: 1; overflow-x: hidden; padding-top: 20px; transition: width 0.5s; } .collapse-btn { font-size: 30px; background: none; border: none; color: white; cursor: pointer; top: 20px; left: 20px; } .theme-picker { padding: 20px; color: white; text-align: center; } .sidebar.collapsed { width: 60px; padding-top: 0; } .sidebar, .chat-container, .title, #update-time { transition: 0.5s; } #update-time { margin-top: 100px; text-align: center; } .rainbow { animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1); font-family: Comfortaa, sans-serif; animation: rainbowAnimation 6s ease-in-out infinite; } @keyframes rainbowAnimation { 0% { color: red; } 14% { color: orange; } 28% { color: yellow; } 42% { color: green; } 57% { color: blue; } 71% { color: indigo; } 85% { color: violet; } 100% { color: red; } } sl-alert::part(base) { background: #111; border: solid 3px #333; border-radius: 0.8rem; color: #fff; font-family: Comfortaa; } sl-button::part(base) { background: #111; border: solid 3px #333; border-radius: 15px; color: #fff; font-family: Comfortaa; } sl-dialog::part(base) { background: #111; border: solid 3px #333; font-family: Comfortaa; } #theme-select { border-radius: 10px; }   </style></head><body><center><sl-alert variant="success" open closable class="alert-closable"> <sl-icon slot="icon" name="check2-circle"></sl-icon> Hycron-4 is becoming more intelligent! </sl-alert><sl-dialog label="About Us" class="dialog-overview"> Say hello to Hycron-4, the newest and greatest version of SynthoSpeak models, while still having <strong>no APIs.</strong> <sl-button slot="footer" variant="primary">Close</sl-button></sl-dialog><sl-button>About Us</sl-button><script>const dialog = document.querySelector('.dialog-overview');const openButton = dialog.nextElementSibling;const closeButton = dialog.querySelector('sl-button[slot="footer"]');openButton.addEventListener('click', () => dialog.show());closeButton.addEventListener('click', () => dialog.hide());</script></center><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.11.0/cdn/themes/light.css" /><script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.11.0/cdn/shoelace-autoloader.js"></script><script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" /><header><img src="https://i.ibb.co/m9KQ9hY/Untitled-design-18-3-modified.png" width="50" class="logo" alt="Logo"> <h1 class="title" style="margin-left: 10px; font-family: Comfortaa;"><center>Hycron-4</center></h1></header><div class="sidebar"><button class="collapse-btn" onclick="toggleSidebar()" style="margin-left: 10px; margin-top: 10px">☰</button><div class="theme-picker"><strong><h1 class="rainbow"> <span class=""><svg fill="none" class="icon-sm shrink-0" viewBox="0 0 16 16" width="30"><path d="m5.854 5.735.692-2.074a.479.479 0 0 1 .908 0l.692 2.074a3.35 3.35 0 0 0 2.119 2.12l2.074.69a.479.479 0 0 1 0 .91l-2.074.69a3.35 3.35 0 0 0-2.12 2.12l-.691 2.074a.479.479 0 0 1-.908 0l-.692-2.074a3.35 3.35 0 0 0-2.119-2.12l-2.074-.69a.479.479 0 0 1 0-.91l2.074-.69a3.35 3.35 0 0 0 2.12-2.12ZM11.46 2.464l.326-.977a.225.225 0 0 1 .428 0l.325.977c.157.47.527.84.997.997l.977.325a.225.225 0 0 1 0 .428l-.977.325c-.47.157-.84.527-.997.997l-.325.977a.225.225 0 0 1-.428 0l-.325-.977a1.577 1.577 0 0 0-.998-.997l-.976-.325a.225.225 0 0 1 0-.428l.976-.325c.471-.157.84-.527.998-.997Z" fill="currentColor"></path></svg></span>Customize</h1></strong><label for="theme-select">Select a Theme:</label><select id="theme-select"><option  class="topround" value="default">Legacy</option><option value="dark">Dark</option><option value="light">Light</option></select></div></div><div class="chat-container"><div class="chat-message"><span id="ap_welcome">.</span><script type="text/javascript">document.getElementById("ap_welcome").innerHTML = "Hello, "+login;</script>.<br>I'm Hycron-4, <em>your friendly assistant.</em><br><br><strong>What can I help you with today?</strong></div>
+</div>
+   <br>
+    <center><input type="text" id="user-input" placeholder="Type your message..." maxlength="100" style="width: 100%;"></center>
+    <center><button id="user-input-button" style="width: 100px"><i class="fa-solid fa-paper-plane"></i><div style="margin-left: 10px"></div> <i class="fa-solid fa-s"></i><i class="fa-solid fa-e"></i><i class="fa-solid fa-n"></i><i class="fa-solid fa-d"></i></button></center>
+      <br>
+      <strong><footer id="update-time"><center>Hycron-4 was updated</center></footer></strong>
+          <br>
+    <script>
+          function addUserMessage(message) {
+      const chatContainer = document.querySelector('.chat-container');
+    const userMessage = document.createElement('div');
+    userMessage.classList.add('message', 'user-message');
+
+    const messageContent = document.createElement('div');
+    messageContent.classList.add('message-content', 'user-message-content');
+
+    const userProfileIcon = document.createElement('i');
+    userProfileIcon.classList.add('fa-solid', 'fa-circle-user', 'user-icon');
+
+    const messageText = document.createElement('span');
+    messageText.textContent = message;
+
+    messageContent.appendChild(messageText);
+    messageContent.appendChild(userProfileIcon);
+
+    userMessage.appendChild(messageContent);
+
+    chatContainer.appendChild(userMessage);
+}
+
+function addBotResponse(response) {
+    const chatContainer = document.querySelector('.chat-container');
+    const botMessage = document.createElement('div');
+    botMessage.classList.add('chat-message');
+    botMessage.textContent = response; 
+
+    chatContainer.appendChild(botMessage);
+
+    speak(response);
+}
+
+function speak(text) {
+    if ('speechSynthesis' in window) {
+
+        window.speechSynthesis.cancel();
+        const speech = new SpeechSynthesisUtterance(text);
+        speech.voice = speechSynthesis.getVoices().filter(voice => voice.lang === 'en')[2]; 
+        window.speechSynthesis.speak(speech);
+    } else {
+        console.error('Text-to-speech not supported.');
+    }
+}
+
+        function generateBotResponse(userInput) {
+            const lowerInput = userInput.toLowerCase();
+
+             if (lowerInput.includes('hello') || lowerInput.includes('what\'s up')) {
+                return 'Hi there! How can I assist you today?';
+            } else
+
+                 if (lowerInput.includes('what\'s better light or dark mode') || lowerInput.includes('dark or light mode')) {
+                return 'As a chatbot, I do not have a favourite type of brightness mode.';
+            } else
+if (lowerInput.includes('what\'s your name') || lowerInput.includes('dark or light mode')) {
+                return 'My name is Hycron-4! The new and improved version of Octo AI Chatbots, How may I help you today?';
+            } else
+                if (lowerInput.includes('where do you come from') || lowerInput.includes('where were you made')) {
+                return 'I don\'t have a nationality, but I\'m here to help!';
+            } else
+             if (lowerInput.includes('hey') || lowerInput.includes('whats up')) {
+                return 'Hello! How can I assist you today?';
+            } else
+            if (lowerInput.includes('hello') || lowerInput.includes('hi')) {
+                return 'Hello! How can I assist you today?';
+            } else
+              if (lowerInput.includes('youtube')) {
+                return 'Youtube is a video hosting platform developed by Google. There are at least 800 million videos on YouTube and quite possibly many more than this, aswell as more than 114 million active YouTube channels, some popular ones are MrBeast, T-series and PewDiePie.';
+            } else
+                if (lowerInput.includes('cool')) {
+            return 'I\'m happy to hear you think that way!';
+            } else
+
+       if (lowerInput.includes('explain why popcorn pops to a kid')) {
+    return 'Okay, imagine you\'re a tiny little kernel of popcorn, snug and tight with a coat that\'s super tough. Inside you, there\'s a teeny drop of water, just hanging out. Now, think about what happens when you jump into a warm bath—the water gets all steamy. Well, when you, the popcorn kernel, go into the microwave, it\'s like you\'re taking the warmest bath ever! The microwave makes the water inside you heat up super fast, turning it into steam. But because your coat is so tough, the steam can\'t get out, and it really wants to escape! So it pushes and pushes against your coat until—POP!—your coat bursts open, and you turn inside out into a big, fluffy piece of popcorn. That\'s why when you look in the microwave, you see all the little kernels jumping and popping around. They\'re all turning into fluffy popcorn because the steam is bursting their coats open. Isn\'t that cool? It\'s like a tiny little explosion of yumminess!';
+}
+
+    if (lowerInput.includes('spring')) {
+    return 'Are you feeling the fresh spring air? Tell me what you love about spring!';
+} else if (lowerInput.includes('summer')) {
+    return 'Ah, summer is fantastic, isn\'t it? What are your favorite summer activities?';
+} else if (lowerInput.includes('fall') || lowerInput.includes('autumn')) {
+    return 'The season of colors – fall! What do you enjoy most about autumn?';
+} else if (lowerInput.includes('winter')) {
+    return 'Brrr... it’s chilly in winter. Do you like the snow, or prefer staying cozy indoors?';
+} else   
+if (lowerInput.includes('cosy indoor')) {
+    return '';
+} else             
+    if (lowerInput.includes('octo-ai') || lowerInput.includes('octoai')) {
+            return 'Octo-AI is a dynamic and innovative company specializing in the creation and refinement of cutting-edge chatbot models. Our team at Octo-AI is at the forefront of chatbot development, working tirelessly to design, customize, and optimize chatbots that cater to the diverse needs of our clients.';
+            } else
+                if (lowerInput.includes('trigonometry')) {
+
+    return "Of course! Trigonometry is a branch of mathematics that deals with the relationships between the angles and sides of triangles. It's particularly useful in geometry and real-world applications. Here are some basics: Trigonometric Functions: Trigonometry involves fundamental functions like sine (sin), cosine (cos), and tangent (tan). Sine (sin): In a right triangle, sine of an angle is the ratio of the length of the side opposite the angle to the length of the hypotenuse. Cosine (cos): Cosine is the ratio of the length of the side adjacent to the angle to the hypotenuse. Tangent (tan): Tangent is the ratio of the length of the side opposite an angle to the side adjacent to that angle. Pythagorean Theorem: Trigonometry is closely related to the Pythagorean theorem, which states that in a right triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the other two sides. Applications: Trigonometry is used in various fields, including physics, engineering, and navigation, to solve problems involving angles and distances. If you have specific questions or need further explanation, feel free to ask!"
+}
+if (lowerInput.includes('generate a random hex code')) {
+
+    const hexCode = getRandomHexCode();
+    return `Here's a random hexadecimal color code: ${hexCode}`;
+}
+
+function getRandomHexCode() {
+    const characters = '0123456789ABCDEF';
+    let hexCode = '#';
+    for (let i = 0; i < 6; i++) {
+        hexCode += characters[Math.floor(Math.random() * 16)];
+    }
+    return hexCode;
+}
+
+            if (lowerInput.includes('generate hex code for')) {
+
+    const colorName = extractColorName(lowerInput);
+
+    if (colorName) {
+
+        const hexCode = generateHexCodeForColor(colorName);
+        return `Sure! Here's a hex code for the color ${colorName}: ${hexCode}`;
+    } else {
+        return "I'm sorry, I couldn't recognize the color. Please specify a valid color name.";
+    }
+}
+
+function extractColorName(input) {
+
+    const colorNames = {
+        'red': 'FF0000',
+        'green': '008000',
+        'blue': '0000FF',
+        'yellow': 'FFFF00',
+        'blood': '8A0303',
+        'yellow orange': 'FFAE42',
+        'amber': 'FFBF00',
+        'orange': 'FFA500',
+
+    };
+
+    for (const name in colorNames) {
+        if (input.includes(name)) {
+            return name;
+        }
+    }
+
+    return null;
+}
+
+function generateHexCodeForColor(colorName) {
+    const colorNames = {
+        'red': 'FF0000',
+        'green': '008000',
+        'blue': '0000FF',
+        'yellow': 'FFFF00',
+        'blood': '8A0303',
+        'yellow orange': 'FFAE42',
+        'amber': 'FFBF00',
+        'orange': 'FFA500',
+
+    };
+
+    return colorNames[colorName];
+}
+            if (lowerInput.includes('tell me about')) {
+
+    const gameName = extractGameName(lowerInput);
+
+    if (gameName)
